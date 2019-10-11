@@ -1,3 +1,4 @@
+devtools::install_github("ropensci/ghql")
 install.packages("tidyverse")
 install.packages("rmarkdown")
 install.packages("httr")
