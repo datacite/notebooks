@@ -1,0 +1,38 @@
+{
+	"@context": "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld",
+	"@type": "SoftwareSourceCode",
+	"authors": [{
+		"@id": "http://orcid.org/0000-0003-1419-2405",
+		"@type": "person",
+		"name": "Martin Fenner",
+    "affiliation": "DataCite",
+		"mustBeCited": true,
+		"isMaintainer": true,
+		"isRightsHolder": true
+	}],
+	"identifier": "https://doi.org/10.14454/628m-3882",
+	"codeRepository": "https://github.com/datacite/notebooks",
+	"controlledTem": "software",
+	"datePublished": "2019-10-12",
+	"dateModified": "2019-10-12",
+	"dateCreated": "2019-10-12",
+	"description": "Jupyter notebook that uses GraphQL to fetch the publications, datasets and software for a particular researcher",
+  "isAutomatedBuild": true,
+	"issueTracker": "https://github.com/datacite/notebooks/issues",
+	"licenseId": "MIT",
+	"publisher": "DataCite",
+	"tags": [
+		"pid graph",
+    "graphql",
+    "researcher",
+    "orcid",
+    "freya"
+	],
+	"name": "FREYA PID Graph for a specific researcher",
+	"version": "1.0.0",
+	"programmingLanguage": {
+		"name": "R",
+		"version": "> 3.6.0",
+		"URL": "https://www.r-project.org"
+	}
+}
