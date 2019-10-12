@@ -14,7 +14,7 @@
 	"codeRepository": "https://github.com/datacite/notebooks",
 	"controlledTem": "software",
 	"datePublished": "2019-06-30",
-	"dateModified": "2019-06-30",
+	"dateModified": "2019-10-12",
 	"dateCreated": "2019-06-30",
 	"description": "Jupyter notebook that uses GraphQL to fetch the total number of nodes and connections from the FREYA PID Graph.",
   "isAutomatedBuild": true,
@@ -28,7 +28,7 @@
     "freya"
 	],
 	"name": "FREYA PID Graph Key Performance Indicators (KPIs)",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"programmingLanguage": {
 		"name": "R",
 		"version": "> 3.6.0",
