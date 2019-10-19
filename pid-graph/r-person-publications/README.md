@@ -5,6 +5,8 @@
 
 This Jupyter notebook uses the [DataCite GraphQL API](https://api.datacite.org/graphql) to fetch all DataCite references of the DataCite publications, datasets and software authored by a particular researcher, using his/her ORCID ID.
 
+![](person.png)
+
 ## License
 
 [MIT](https://github.com/datacite/notebooks/blob/master/LICENSE)
