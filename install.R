@@ -10,7 +10,7 @@ install.packages(
 	c(
 	"remotes", "rmarkdown", "httr", "jsonlite",
 	"igraph", "IRdisplay", "dplyr", "tidyr",
-	"RColorBrewer"
+	"RColorBrewer", "purrr", "Hmisc"
 	)
 )
 # Packages not available via CRAN
