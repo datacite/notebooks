@@ -8,7 +8,7 @@ options(
 # CRAN packages
 install.packages(
 	c(
-	"remotes", "rmarkdown", "httr", "jsonlite"
+	"remotes", "rmarkdown", "httr", "jsonlite",
 	"igraph", "IRdisplay", "dplyr", "tidyr",
 	"RColorBrewer"
 	)
