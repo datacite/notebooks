@@ -1,10 +1,17 @@
-devtools::install_github("ropensci/ghql")
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("httr")
-install.packages("shinydashboard")
-install.packages('leaflet')
-install.packages("ghql")
-install.packages("jsonlite")
-install.packages("igraph")
-install.packages("Hmisc")
+# Use MRAN Snapshot, the CRAN Time Machine <https://mran.microsoft.com/timemachine>
+options(
+	repos = list(
+		CRAN = "http://mran.revolutionanalytics.com/snapshot/2019-10-20/"
+		)
+	)
+
+# CRAN packages
+install.packages(
+	c(
+	"remotes", "rmarkdown", "httr", "jsonlite",
+	"igraph", "IRdisplay", "dplyr", "tidyr",
+	"RColorBrewer", "purrr", "Hmisc"
+	)
+)
+# Packages not available via CRAN
+remotes::install_github("ropensci/ghql")
