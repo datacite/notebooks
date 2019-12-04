@@ -1,0 +1,10 @@
+certifi==2019.11.28
+chardet==3.0.4
+gql==0.1.0
+graphql-core<3.0.0
+idna==2.8
+promise==2.2.1
+python-igraph==0.7
+requests==2.22.0
+six==1.13.0
+urllib3==1.25.7
