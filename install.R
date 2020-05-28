@@ -1,10 +1,2 @@
-devtools::install_github("ropensci/ghql")
-install.packages("tidyverse")
-install.packages("rmarkdown")
-install.packages("httr")
-install.packages("shinydashboard")
-install.packages('leaflet')
-install.packages("ghql")
-install.packages("jsonlite")
-install.packages("igraph")
-install.packages("Hmisc")
+# TODO: provide a conda package of this to conda-forge and eliminate this step
+install.packages("ghql", repos = c(CRAN = "https://cran.rstudio.com"))
