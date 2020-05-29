@@ -1,4 +1,0 @@
-# -*- mode: sh; -*-
-
-# NOTE: necessary to install R modules not available from conda
-Rscript install.R

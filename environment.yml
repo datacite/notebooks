@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - r-base=3.6
+  - r-ghql
   - r-hmisc
   - r-httr
   - r-igraph
