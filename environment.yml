@@ -1,0 +1,27 @@
+name: root
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - r-base=3.6
+  - r-ghql
+  - r-hmisc
+  - r-httr
+  - r-igraph
+  - r-jsonlite
+  - r-leaflet
+  - r-rmarkdown
+  - r-shinydashboard
+  - r-tidyverse
+
+  - python=3.7
+  - certifi
+  - chardet
+  - gql=0.1.0
+  - graphql-core=2.3.2
+  - idna
+  - promise
+  - python-igraph
+  - requests
+  - six
+  - urllib3
